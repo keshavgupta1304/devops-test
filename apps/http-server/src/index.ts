@@ -5,7 +5,7 @@ const app=express();
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-  res.send("Hello World");
+  res.send("Hello World, cd pipeline working ");
 })
 
 app.post("/signup",async (req,res)=>{
